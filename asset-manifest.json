@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/anderson_portfolio/static/css/main.a17139bc.css",
-    "main.js": "/anderson_portfolio/static/js/main.8f062e99.js",
+    "main.css": "/anderson_portfolio/static/css/main.9a947fc9.css",
+    "main.js": "/anderson_portfolio/static/js/main.3c68d6e4.js",
     "static/media/Curriculum_Vitae__Anderson_.pdf": "/anderson_portfolio/static/media/Curriculum_Vitae__Anderson_.00a1fb591651c42b0e84.pdf",
     "index.html": "/anderson_portfolio/index.html",
-    "main.a17139bc.css.map": "/anderson_portfolio/static/css/main.a17139bc.css.map",
-    "main.8f062e99.js.map": "/anderson_portfolio/static/js/main.8f062e99.js.map"
+    "main.9a947fc9.css.map": "/anderson_portfolio/static/css/main.9a947fc9.css.map",
+    "main.3c68d6e4.js.map": "/anderson_portfolio/static/js/main.3c68d6e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.a17139bc.css",
-    "static/js/main.8f062e99.js"
+    "static/css/main.9a947fc9.css",
+    "static/js/main.3c68d6e4.js"
   ]
 }
