@@ -1,4 +1,10 @@
 import React, { useState } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import './nav.css'
 export const Nav = () => {
@@ -9,10 +15,13 @@ export const Nav = () => {
     setnav(!nav)
   }
   return (
-    <div className='flex fixed top-0 left-0 right-0 justify-between items-center h-24 max-w-[1240px] mx-auto px-4 bg-[rgb(38,63,115)]  text-white'>
+    <div className='flex fixed opacity-75 z-10 top-0 left-0 right-0 justify-between items-center h-24 max-w-[1240px] mx-auto px-4 bg-[rgb(38,63,115)]  text-white'>
       <h1 className='w-full text-3xl font-bold text-[#94E1F2] '>Anderson</h1>
       <ul className=' hidden md:flex'>
-        <li className=' p-20 font-bold '>Inicio</li>
+        <li className=' p-20 font-bold '>
+          <a className='text-[#94E1F2]' href='./Nav'>Inicio</a>
+        
+          </li>
         <li className='p-20 font-bold text-[#94E1F2]'>Acerca</li>
         <li className='p-20 font-bold '>Proyectos</li>
         <li className=' p-20 font-bold text-[#94E1F2]'>Contacto</li>

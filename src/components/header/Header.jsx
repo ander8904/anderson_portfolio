@@ -2,9 +2,11 @@ import React from 'react'
 import './header.css'
 import Spline from '@splinetool/react-spline';
 import { CVA } from './CVA'
-import { Spinner } from './Spinner';
+
 import { Nav } from './nav/Nav'
 import { Contact } from '../contact/Contact';
+import { Experience } from '../experience/Experience';
+import { Footer } from '../footer/Footer';
 
 export const Header = () => {
   return (
@@ -27,41 +29,14 @@ export const Header = () => {
 
         </section>
       
-        <div class="lg:absolute lg:inset-y-24 lg:right-0 ">
-          <Spline scene="https://draft.spline.design/NPo5k49tfh2iXsbA/scene.spline" />
-
+        <div class="lg:absolute lg:inset-y-24 lg:right-0 overflow-auto">
+        <Spline scene="https://draft.spline.design/pM4Yopvnvr57D0Ui/scene.splinecode" />
         </div>
-      
-      <br></br>
-      <Contact/>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-
+ 
     
       </div>
-      
-      <Spinner/>
-      
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <Spinner/>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+    
+   
     
     </div>
   )

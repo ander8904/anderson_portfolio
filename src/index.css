@@ -31,9 +31,32 @@ html {
     scroll-behavior: smooth;
 }
 
+/*::-webkit-scrollbar {
+    display: flex;
+
+    scrollbar-track-color: blue;
+}*/
+
+/* width */
 ::-webkit-scrollbar {
-    display: none;
-}
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(30 41 59); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:   #94E1F2; 
+  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3949AB;  
+  }
 
 body {
     font-family: 'Poppins', sans-serif;
